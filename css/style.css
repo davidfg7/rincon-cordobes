@@ -161,11 +161,16 @@ main img{
     margin: 1%;
 }
 
+#formulario-contacto div{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
 #formulario-contacto input, textarea{
     border: greenyellow dashed 1px;
     align-self: center;
     vertical-align: middle;
-    
 }
 
 .form-row textarea{
@@ -193,6 +198,7 @@ main img{
 
 .contacto, iframe{
     align-self: center;
+    max-width: fit-content;
 }
 
 /* width % Es una unidad relativa, que se amolda al tamaño de mi pantalla. 
