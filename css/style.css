@@ -52,15 +52,15 @@ header{
     align-items: center;
 }
 
-.headerSection1{
+.logo-header{
+    padding: 20px;
+}
+
+
+/* .headerSection1{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.logoHeader{
-    width: 70%;
-    padding: 20px 0;
 }
 
 .buscador{
@@ -77,21 +77,34 @@ header{
     padding: 0 5px;
     text-decoration: none;
     flex-wrap: wrap;
+} */
+
+.btn-outline-success{
+    color: greenyellow;
+    border-color: greenyellow;
 }
 
+.btn-outline-success:hover{
+    color: black;
+    background-color: greenyellow;
+}
 
-
+.navbarr{
+    font-family: Hubballi, Arial, Helvetica, sans-serif;
+}
 
 /* Main */
 
-main{
+
+
+/* main{
     display: flex;
     text-align: center;
 }
 
 main div{
     padding: 60px 0 40px;
-}
+} */
 
 main h1{
     padding: 60px 0 40px;
@@ -101,23 +114,32 @@ main h1{
 
 main h2{
     font-size: 1.5em;
+    text-align: center;
 }
 
 /* ==Index== */
 
-.homeMainDiv img{
+/* .homeMainDiv img{
     margin: 2%;
     justify-content: space-around;
-}
+} */
 
 
 /* ==Productos== */
 
-.productosMain{
-    display: block;
+.splide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
 }
 
-.productosMainDiv p{
+/* .productosMain{
+    display: block;
+} */
+
+/* .productosMainDiv p{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -128,15 +150,37 @@ main h2{
 
 main img{
     border: solid;
-}
+} */
 
 /* ==Envíos== */
+
+.envios{
+    text-align: center;
+}
 
 .tablaenvios{
     display: inline;
 }
 
+/* ==Quienes somos== */
+
+.quienes-somos{
+    text-align: center;
+}
+
 /* ==Contacto== */
+
+.btn-primary{
+    color: rgb(53, 54, 54);
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+
+.btn-primary:hover{
+    color: greenyellow;
+    background-color: rgb(53, 54, 54);
+    border-color: greenyellow;
+}
 
 .contacto{
     display: flex;
