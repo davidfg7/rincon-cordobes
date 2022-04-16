@@ -1,0 +1,272 @@
+/* Las class son reutilizables, los id (#) no */
+/* El asterisco es un selector universal */
+
+/* Unidades de medida */
+/*  Absolutas: No cambian ni dependen de otro factor, ideales cuando el contexto no varía. 
+    Ej: px
+    Relativas: Dependen de otro factor, ideales para dispositivos con distinto tamaño. 
+    Ej: 
+    - em (se establece su tamaño base por el navegador, 1em = 16px)
+    - rem (el tamaño base - root lo establecemos nosotros)
+    - % ( img{width:100%}
+    */
+
+
+/* html o :root */
+    /* :root{
+        (variable o valor)
+        --color-home-navebar: black;
+        --color-bordes: 6px;
+        --size-encabezados: 44px;
+    }
+
+    nav{
+        background-color: var(--color-home-navebar);
+    } */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(53, 54, 54);
+    color: greenyellow;
+    font-size: 1em;
+    font-family: Hubballi, Arial, Helvetica, sans-serif
+}
+
+/* Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=PT+Sans&display=swap');
+
+/*Body*/
+
+
+
+/* Header */
+
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; /* acomoda cada vez que se achica la pantalla. */
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-header{
+    padding: 20px;
+}
+
+
+/* .headerSection1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buscador{
+    padding: 40px 0;
+}
+
+.buscador input{
+    border: dashed 2px;
+}
+
+.headerSection2 ul li{
+    display: inline;
+    justify-content: space-around;
+    padding: 0 5px;
+    text-decoration: none;
+    flex-wrap: wrap;
+} */
+
+.btn-outline-success{
+    color: greenyellow;
+    border-color: greenyellow;
+}
+
+.btn-outline-success:hover{
+    color: black;
+    background-color: greenyellow;
+}
+
+.navbarr{
+    font-family: Hubballi, Arial, Helvetica, sans-serif;
+}
+
+/* Main */
+
+
+
+/* main{
+    display: flex;
+    text-align: center;
+}
+
+main div{
+    padding: 60px 0 40px;
+} */
+
+main h1{
+    padding: 60px 0 40px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+main h2{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* ==Index== */
+
+/* .homeMainDiv img{
+    margin: 2%;
+    justify-content: space-around;
+} */
+
+
+/* ==Productos== */
+
+.splide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+/* .productosMain{
+    display: block;
+} */
+
+/* .productosMainDiv p{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 40px;
+}
+
+main img{
+    border: solid;
+} */
+
+/* ==Envíos== */
+
+.envios{
+    text-align: center;
+}
+
+.tablaenvios{
+    display: inline;
+}
+
+/* ==Quienes somos== */
+
+.quienes-somos{
+    text-align: center;
+}
+
+/* ==Contacto== */
+
+.btn-primary{
+    color: rgb(53, 54, 54);
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+
+.btn-primary:hover{
+    color: greenyellow;
+    background-color: rgb(53, 54, 54);
+    border-color: greenyellow;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.contactoH2{
+    text-decoration: underline;
+    margin: 2%;
+    flex-wrap: wrap;
+}
+
+.contacto p{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    margin: 1%;
+}
+
+#formulario-contacto div{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#formulario-contacto input, textarea{
+    border: greenyellow dashed 1px;
+    align-self: center;
+    vertical-align: middle;
+}
+
+.form-row textarea{
+    min-height: 200px;
+    min-width: 100%;
+    resize: none;
+}
+
+.form-row button{
+    color: rgb(53, 54, 54);
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+}
+
+.form-row button:hover{
+    background-color: rgb(87, 88, 88);
+    color: greenyellow;
+    border: transparent;
+}
+
+.form-row button:active{
+    background-color: black;
+}
+
+.contacto, iframe{
+    align-self: center;
+    max-width: fit-content;
+}
+
+/* width % Es una unidad relativa, que se amolda al tamaño de mi pantalla. 
+Para imágenes siempre tratar de usar medidas relativas.
+Evitar cambiar la propiedad height*/
+
+
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+footer img, a{
+    padding: 40px 0;
+}
+
+.logoFooter{
+    width: 7%;
+}

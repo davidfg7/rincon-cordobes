@@ -1,0 +1,10 @@
+/* Nesting o anidamiento */
+/* &:hover */
+/*  para llamar de una lista:
+    ej: font-size: nth($size, 5) */
+
+@import 'componentes/header';
+@import 'componentes/footer';
+@import 'base/listas';
+@import 'base/mapas';
+@import 'base/variables';
