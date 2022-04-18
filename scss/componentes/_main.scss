@@ -1,0 +1,52 @@
+@import '../base/reset';
+@import '../base/mapas';
+@import '../base/listas';
+@import '../base/variables';
+
+// Home
+
+main{
+    text-align: center;
+    padding: 0 100px;
+
+    .animate__bounce{
+        margin-bottom: 60px;
+    }
+}
+
+// Envíos
+
+.envios h2, p{
+    margin: 40px;
+}
+
+// Contacto
+
+.contacto .form{
+    .form-row, .mb-3{
+        margin: 20px;
+    }
+
+    .form-label{
+        color: $color-secundario;
+    }
+
+    .btn-primary{
+        color: $color-secundario;
+        background-color: $color-principal;
+        border-color: $color-secundario;
+    }
+    
+    .btn-primary:hover{
+        color: $color-principal;
+        background-color: $color-secundario;
+        border-color: $color-principal;
+    }
+}
+
+.contacto{
+    .contactoH2{
+        padding: 60px;
+    }
+}
+

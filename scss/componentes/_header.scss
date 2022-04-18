@@ -1,3 +1,44 @@
+@import '../base/reset';
 @import '../base/mapas';
 @import '../base/listas';
 @import '../base/variables';
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        a {
+            img {
+                margin: 20px;
+            }
+        }
+    }
+
+    nav {
+        margin: 60px;
+        
+        .container-fluid{
+            padding-left: 0px;
+        };
+        
+
+        .btn-outline-success {
+            color: $color-secundario;
+            border-color: $color-secundario;
+        };
+
+        .btn-outline-success:hover {
+            color: $color-principal;
+            background-color: $color-secundario;
+            border-color: $color-principal;
+
+        };
+
+        
+
+    }
+}

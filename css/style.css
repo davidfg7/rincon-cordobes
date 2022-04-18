@@ -1,43 +1,179 @@
 @charset "UTF-8";
+/* Las class son reutilizables, los id (#) no */
+/* El asterisco es un selector universal */
+/* Unidades de medida */
+/*  Absolutas: No cambian ni dependen de otro factor, ideales cuando el contexto no varía. 
+    Ej: px
+    Relativas: Dependen de otro factor, ideales para dispositivos con distinto tamaño. 
+    Ej: 
+    - em (se establece su tamaño base por el navegador, 1em = 16px)
+    - rem (el tamaño base - root lo establecemos nosotros)
+    - % ( img{width:100%}
+    */
+/* html o :root */
+/* :root{
+    (variable o valor)
+    --color-home-navebar: black;
+    --color-bordes: 6px;
+    --size-encabezados: 44px;
+}
+
+nav{
+    background-color: var(--color-home-navebar);
+} */
 /* Nesting o anidamiento */
 /* &:hover */
 /*  para llamar de una lista:
     ej: font-size: nth($size, 5) */
-/* Nos permiten tener un objeto que contiene distintos valores para una misma sección */
-/* Se arman con parentesis y dentro tienen una key y un valor */
-#standard {
-  background-color: gray;
+/* Colores */
+/* Fonts size */
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(53, 54, 54);
+  color: greenyellow;
 }
 
-#premium {
-  font-size: 3.6em;
+:root {
+  --bs-body-bg: $color-principal;
+}
+
+/* Fonts styles */
+/* Nos permiten tener un objeto que contiene distintos valores para una misma sección */
+/* Se arman con parentesis y dentro tienen una key y un valor */
+/* Colores */
+/* Fonts size */
+/* Colores */
+/* Fonts size */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(53, 54, 54);
+  color: greenyellow;
+}
+
+:root {
+  --bs-body-bg: $color-principal;
+}
+
+/* Fonts styles */
+/* Nos permiten tener un objeto que contiene distintos valores para una misma sección */
+/* Se arman con parentesis y dentro tienen una key y un valor */
+/* Colores */
+/* Fonts size */
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+header div a img {
+  margin: 20px;
+}
+header nav {
+  margin: 60px;
+}
+header nav .container-fluid {
+  padding-left: 0px;
+}
+header nav .btn-outline-success {
+  color: greenyellow;
+  border-color: greenyellow;
+}
+header nav .btn-outline-success:hover {
+  color: rgb(53, 54, 54);
+  background-color: greenyellow;
+  border-color: rgb(53, 54, 54);
 }
 
 /* Colores */
 /* Fonts size */
-/* Nos permiten tener un objeto que contiene distintos valores para una misma sección */
-/* Se arman con parentesis y dentro tienen una key y un valor */
-#standard {
-  background-color: gray;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(53, 54, 54);
+  color: greenyellow;
 }
 
-#premium {
-  font-size: 3.6em;
+:root {
+  --bs-body-bg: $color-principal;
+}
+
+/* Fonts styles */
+/* Nos permiten tener un objeto que contiene distintos valores para una misma sección */
+/* Se arman con parentesis y dentro tienen una key y un valor */
+/* Colores */
+/* Fonts size */
+footer {
+  padding: 40px;
+}
+footer .text-white {
+  text-decoration: none;
+  --bs-text-opacity: none;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 0;
 }
 
 /* Colores */
 /* Fonts size */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(53, 54, 54);
+  color: greenyellow;
+}
+
+:root {
+  --bs-body-bg: $color-principal;
+}
+
+/* Fonts styles */
 /* Nos permiten tener un objeto que contiene distintos valores para una misma sección */
 /* Se arman con parentesis y dentro tienen una key y un valor */
-#standard {
-  background-color: gray;
-}
-
-#premium {
-  font-size: 3.6em;
-}
-
 /* Colores */
 /* Fonts size */
+main {
+  text-align: center;
+  padding: 0 100px;
+}
+main .animate__bounce {
+  margin-bottom: 60px;
+}
+
+.envios h2, p {
+  margin: 40px;
+}
+
+.contacto .form .form-row, .contacto .form .mb-3 {
+  margin: 20px;
+}
+.contacto .form .form-label {
+  color: greenyellow;
+}
+.contacto .form .btn-primary {
+  color: greenyellow;
+  background-color: rgb(53, 54, 54);
+  border-color: greenyellow;
+}
+.contacto .form .btn-primary:hover {
+  color: rgb(53, 54, 54);
+  background-color: greenyellow;
+  border-color: rgb(53, 54, 54);
+}
+
+.contacto .contactoH2 {
+  padding: 60px;
+}
 
 /*# sourceMappingURL=style.css.map */

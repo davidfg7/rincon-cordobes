@@ -1,0 +1,16 @@
+@import 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $color-principal;
+    color: $color-secundario;
+}
+
+:root{
+    --bs-body-bg: $color-principal;
+}
+
+/* Fonts styles */
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=PT+Sans&display=swap');

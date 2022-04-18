@@ -2,22 +2,22 @@
 
 /* Se arman con parentesis y dentro tienen una key y un valor */
 
-$perfil-standard: (
-    bg-color-standard: gray,
-    border-standard: 1px solid black,
-    font-standard: 2rem
-);
+// $perfil-standard: (
+//     bg-color-standard: gray,
+//     border-standard: 1px solid black,
+//     font-standard: 2rem
+// );
 
-$perfil-premium: (
-    bg-color-premium: gold,
-    border-premium: 2px solid green,
-    font-premium: 3.6em
-);
+// $perfil-premium: (
+//     bg-color-premium: gold,
+//     border-premium: 2px solid green,
+//     font-premium: 3.6em
+// );
 
-#standard {
-    background-color: map-get($perfil-standard, bg-color-standard);
-}
+// #standard {
+//     background-color: map-get($perfil-standard, bg-color-standard);
+// }
 
-#premium {
-    font-size: map-get($perfil-premium, font-premium);
-}
+// #premium {
+//     font-size: map-get($perfil-premium, font-premium);
+// }
