@@ -155,7 +155,8 @@ main .animate__bounce {
   margin: 40px;
 }
 
-.contacto .form .form-row, .contacto .form .mb-3 {
+.contacto .form .form-row,
+.contacto .form .mb-3 {
   margin: 20px;
 }
 .contacto .form .form-label {
