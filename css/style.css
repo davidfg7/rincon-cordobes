@@ -151,7 +151,8 @@ main .animate__bounce {
   margin-bottom: 60px;
 }
 
-.envios h2, p {
+.envios h2,
+p {
   margin: 40px;
 }
 
@@ -175,6 +176,11 @@ main .animate__bounce {
 
 .contacto .contactoH2 {
   padding: 60px;
+}
+
+#carouselExampleIndicators {
+  width: 40%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

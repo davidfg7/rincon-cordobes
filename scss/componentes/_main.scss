@@ -16,7 +16,8 @@ main {
 
 // Envíos
 
-.envios h2, p {
+.envios h2,
+p {
     margin: 40px;
 }
 
@@ -54,3 +55,7 @@ main {
 
 // Productos
 
+#carouselExampleIndicators {
+    width: 40%;
+    margin: auto;
+}
