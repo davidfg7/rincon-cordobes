@@ -49,7 +49,21 @@ p {
 
 .contacto {
     .contactoH2 {
-        padding: 60px;
+        padding: 30px;
+    };
+    a{  
+        color: $color-secundario;
+        text-decoration-line: underline;
+        :hover{
+            color: $color-principal;
+            background-color: $color-secundario;
+        }
+
+    };
+    @media (max-width: 800px) {
+        iframe{
+            width: 80%;
+        }            
     }
 }
 
