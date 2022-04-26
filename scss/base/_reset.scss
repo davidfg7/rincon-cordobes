@@ -1,15 +1,13 @@
-@import 'variables';
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: $color-principal;
-    color: $color-secundario;
+    background-color: rgb(53,54,54);
+    color: yellowgreen;
 }
 
 :root{
-    --bs-body-bg: $color-principal;
+    --bs-body-bg: rgb(53,54,54);
 }
 
 /* Fonts styles */
