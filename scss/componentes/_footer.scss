@@ -2,6 +2,7 @@
 @import '../base/mapas';
 @import '../base/listas';
 @import '../base/variables';
+@import '../base/mixins';
 
 footer{
     padding: 40px;
@@ -9,8 +10,7 @@ footer{
     .text-white{
         text-decoration: none;
         --bs-text-opacity: none;
-    }
-    
+    };
 }
 
 .bg-dark{

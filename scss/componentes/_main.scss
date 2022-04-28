@@ -2,6 +2,7 @@
 @import '../base/mapas';
 @import '../base/listas';
 @import '../base/variables';
+@import '../base/mixins';
 
 // Home
 
@@ -35,14 +36,12 @@ p {
     }
 
     .btn-primary {
-        color: $color-secundario;
-        background-color: $color-principal;
+        @include color-sin-invertir;
         border-color: $color-secundario;
     }
 
     .btn-primary:hover {
-        color: $color-principal;
-        background-color: $color-secundario;
+        @include color-invertido;
         border-color: $color-principal;
     }
 }
@@ -55,8 +54,7 @@ p {
         color: $color-secundario;
         text-decoration-line: underline;
         :hover{
-            color: $color-principal;
-            background-color: $color-secundario;
+            @include color-invertido;
         }
 
     };

@@ -2,6 +2,7 @@
 @import '../base/mapas';
 @import '../base/listas';
 @import '../base/variables';
+@import '../base/mixins';
 
 header {
     display: flex;
@@ -32,8 +33,7 @@ header {
         };
 
         .btn-outline-success:hover {
-            color: $color-principal;
-            background-color: $color-secundario;
+            @include color-invertido;
             border-color: $color-principal;
 
         };

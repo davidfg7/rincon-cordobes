@@ -84,8 +84,8 @@ header nav .btn-outline-success {
   border-color: greenyellow;
 }
 header nav .btn-outline-success:hover {
-  color: rgb(53, 54, 54);
   background-color: greenyellow;
+  color: rgb(53, 54, 54);
   border-color: rgb(53, 54, 54);
 }
 
@@ -156,13 +156,13 @@ p {
   color: greenyellow;
 }
 .contacto .form .btn-primary {
-  color: greenyellow;
   background-color: rgb(53, 54, 54);
+  color: greenyellow;
   border-color: greenyellow;
 }
 .contacto .form .btn-primary:hover {
-  color: rgb(53, 54, 54);
   background-color: greenyellow;
+  color: rgb(53, 54, 54);
   border-color: rgb(53, 54, 54);
 }
 
@@ -174,8 +174,8 @@ p {
   text-decoration-line: underline;
 }
 .contacto a :hover {
-  color: rgb(53, 54, 54);
   background-color: greenyellow;
+  color: rgb(53, 54, 54);
 }
 @media (max-width: 800px) {
   .contacto iframe {

@@ -1,0 +1,9 @@
+@mixin color-sin-invertir {
+    background-color: rgb(53,54,54);
+    color: greenyellow;    
+};
+
+@mixin color-invertido {
+    background-color: greenyellow;
+    color: rgb(53,54,54);
+};
