@@ -143,6 +143,11 @@ main .animate__bounce {
   margin-bottom: 60px;
 }
 
+#carouselExampleIndicators {
+  width: 40%;
+  margin: auto;
+}
+
 .envios h2,
 p {
   margin: 40px;
@@ -177,15 +182,55 @@ p {
   background-color: greenyellow;
   color: rgb(53, 54, 54);
 }
-@media (max-width: 800px) {
+@media (max-width: 950px) {
+  .contacto .bloque2 {
+    display: flex;
+    flex-direction: column;
+  }
   .contacto iframe {
-    width: 80%;
+    width: 50%;
+    height: 70%;
   }
 }
 
-#carouselExampleIndicators {
-  width: 40%;
-  margin: auto;
+.bloque2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bloque-donde-estamos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cards .btn-primary {
+  background-color: rgb(53, 54, 54);
+  color: greenyellow;
+  border-color: greenyellow;
+}
+.cards .btn-primary:hover {
+  background-color: greenyellow;
+  color: rgb(53, 54, 54);
+  border-color: rgb(53, 54, 54);
+}
+.cards .card {
+  border: none;
+  align-self: flex-end;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.img-quienes-somos {
+  width: 50%;
+  height: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

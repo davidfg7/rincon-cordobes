@@ -15,6 +15,11 @@ main {
     }
 }
 
+#carouselExampleIndicators{
+    width: 40%;
+    margin: auto;
+}
+
 // Envíos
 
 .envios h2,
@@ -58,16 +63,56 @@ p {
         }
 
     };
-    @media (max-width: 800px) {
+    @media (max-width: 950px) {
+        .bloque2{
+            display: flex;
+            flex-direction: column;
+        }
         iframe{
-            width: 80%;
+            width: 50%;
+            height: 70%;
         }            
     }
 }
 
+.bloque2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bloque-donde-estamos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 // Productos
 
-#carouselExampleIndicators {
-    width: 40%;
-    margin: auto;
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .btn-primary{        
+        @include color-sin-invertir;
+        border-color: $color-secundario;
+    };
+    .btn-primary:hover{
+        @include color-invertido;
+        border-color: $color-principal;
+    };
+    .card{
+        border: none;
+        align-self: flex-end;
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+}
+
+// Quienes somos
+
+.img-quienes-somos{
+    width: 50%;
+    height: 50%;
 }
